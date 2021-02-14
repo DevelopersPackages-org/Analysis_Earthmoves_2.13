@@ -1,0 +1,353 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" name="" expanded="1">
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" name="max_earthmove" legend_exp="" id="max_earthmove_30b45881_9878_4ecc_bee1_db7143802827" providerKey="ogr" source="./max_earthmove.csv" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer refreshOnNotifyMessage="" geometry="No geometry" autoRefreshTime="0" wkbType="NoGeometry" styleCategories="AllStyleCategories" readOnly="0" minScale="1e+08" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" maxScale="0" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>max_earthmove_30b45881_9878_4ecc_bee1_db7143802827</id>
+      <datasource>./max_earthmove.csv</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>max_earthmove</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" miny="0" minz="0" maxy="0" maxz="0" dimensions="2" minx="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="デフォルト">
+        <map-layer-style name="デフォルト"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="#震度計番号">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="観測点名称">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="緯度">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="経度">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="震度">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大加速度NS[cm/s/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大加速度EW[cm/s/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大加速度UD[cm/s/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大加速度3成分合成[cm/s/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大速度NS[cm/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大速度EW[cm/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大速度UD[cm/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大速度3成分合成[cm/s]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大変位NS[cm]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大変位EW[cm]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大変位UD[cm]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="最大変位3成分合成[cm]">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="#震度計番号" index="0" name=""/>
+        <alias field="観測点名称" index="1" name=""/>
+        <alias field="緯度" index="2" name=""/>
+        <alias field="経度" index="3" name=""/>
+        <alias field="震度" index="4" name=""/>
+        <alias field="最大加速度NS[cm/s/s]" index="5" name=""/>
+        <alias field="最大加速度EW[cm/s/s]" index="6" name=""/>
+        <alias field="最大加速度UD[cm/s/s]" index="7" name=""/>
+        <alias field="最大加速度3成分合成[cm/s/s]" index="8" name=""/>
+        <alias field="最大速度NS[cm/s]" index="9" name=""/>
+        <alias field="最大速度EW[cm/s]" index="10" name=""/>
+        <alias field="最大速度UD[cm/s]" index="11" name=""/>
+        <alias field="最大速度3成分合成[cm/s]" index="12" name=""/>
+        <alias field="最大変位NS[cm]" index="13" name=""/>
+        <alias field="最大変位EW[cm]" index="14" name=""/>
+        <alias field="最大変位UD[cm]" index="15" name=""/>
+        <alias field="最大変位3成分合成[cm]" index="16" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="#震度計番号" expression=""/>
+        <default applyOnUpdate="0" field="観測点名称" expression=""/>
+        <default applyOnUpdate="0" field="緯度" expression=""/>
+        <default applyOnUpdate="0" field="経度" expression=""/>
+        <default applyOnUpdate="0" field="震度" expression=""/>
+        <default applyOnUpdate="0" field="最大加速度NS[cm/s/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大加速度EW[cm/s/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大加速度UD[cm/s/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大加速度3成分合成[cm/s/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大速度NS[cm/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大速度EW[cm/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大速度UD[cm/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大速度3成分合成[cm/s]" expression=""/>
+        <default applyOnUpdate="0" field="最大変位NS[cm]" expression=""/>
+        <default applyOnUpdate="0" field="最大変位EW[cm]" expression=""/>
+        <default applyOnUpdate="0" field="最大変位UD[cm]" expression=""/>
+        <default applyOnUpdate="0" field="最大変位3成分合成[cm]" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" field="#震度計番号" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="観測点名称" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="緯度" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="経度" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="震度" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大加速度NS[cm/s/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大加速度EW[cm/s/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大加速度UD[cm/s/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大加速度3成分合成[cm/s/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大速度NS[cm/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大速度EW[cm/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大速度UD[cm/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大速度3成分合成[cm/s]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大変位NS[cm]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大変位EW[cm]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大変位UD[cm]" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="最大変位3成分合成[cm]" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="#震度計番号"/>
+        <constraint exp="" desc="" field="観測点名称"/>
+        <constraint exp="" desc="" field="緯度"/>
+        <constraint exp="" desc="" field="経度"/>
+        <constraint exp="" desc="" field="震度"/>
+        <constraint exp="" desc="" field="最大加速度NS[cm/s/s]"/>
+        <constraint exp="" desc="" field="最大加速度EW[cm/s/s]"/>
+        <constraint exp="" desc="" field="最大加速度UD[cm/s/s]"/>
+        <constraint exp="" desc="" field="最大加速度3成分合成[cm/s/s]"/>
+        <constraint exp="" desc="" field="最大速度NS[cm/s]"/>
+        <constraint exp="" desc="" field="最大速度EW[cm/s]"/>
+        <constraint exp="" desc="" field="最大速度UD[cm/s]"/>
+        <constraint exp="" desc="" field="最大速度3成分合成[cm/s]"/>
+        <constraint exp="" desc="" field="最大変位NS[cm]"/>
+        <constraint exp="" desc="" field="最大変位EW[cm]"/>
+        <constraint exp="" desc="" field="最大変位UD[cm]"/>
+        <constraint exp="" desc="" field="最大変位3成分合成[cm]"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" name="#震度計番号" type="field"/>
+          <column hidden="0" width="-1" name="観測点名称" type="field"/>
+          <column hidden="0" width="-1" name="緯度" type="field"/>
+          <column hidden="0" width="-1" name="経度" type="field"/>
+          <column hidden="0" width="-1" name="震度" type="field"/>
+          <column hidden="0" width="-1" name="最大加速度NS[cm/s/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大加速度EW[cm/s/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大加速度UD[cm/s/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大加速度3成分合成[cm/s/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大速度NS[cm/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大速度EW[cm/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大速度UD[cm/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大速度3成分合成[cm/s]" type="field"/>
+          <column hidden="0" width="-1" name="最大変位NS[cm]" type="field"/>
+          <column hidden="0" width="-1" name="最大変位EW[cm]" type="field"/>
+          <column hidden="0" width="-1" name="最大変位UD[cm]" type="field"/>
+          <column hidden="0" width="-1" name="最大変位3成分合成[cm]" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+フォームが開かれた時に呼び出されるPython関数を使用してフォームにエクストラロジックを追加することができます
+"Python初期化関数"フィールドに関数の名前を入力します
+例は次のとおりです:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>#髴ｺｦ險育分蜿ｷ</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
